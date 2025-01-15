@@ -1,0 +1,9 @@
+<div>
+    <h2>Formulario</h2>
+    <input type="text" placeholder="Nombre" [(ngModel)]="nombre">
+    <input type="number" placeholder="Edad" [(ngModel)]="edad">
+    <input type="url" placeholder="Imagen" [(ngModel)]="imagen">
+</div>
+<div>
+    <app-ficha-superheroe [nombre]="nombre" [edad]="edad" [url]="imagen"></app-ficha-superheroe>
+</div>
