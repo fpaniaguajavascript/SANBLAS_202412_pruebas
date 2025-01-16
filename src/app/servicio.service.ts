@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ServicioService {
-  tareas = new Array<string>();
+  private tareas = new Array<string>();
   constructor() { }
   addTarea(tarea : string) {
     this.tareas.push(tarea);
